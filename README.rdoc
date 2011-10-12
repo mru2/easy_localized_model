@@ -1,0 +1,35 @@
+= easy_localized_model
+
+Description goes here.
+
+== Usage
+
+class Post < ActiveRecord:Base
+  localized :title, :content
+end
+
+@post.title= {:en => "foo", :fr => "bar"}
+
+@post.title
+# foo
+
+@post.title(:fr)
+# bar
+
+I18n.locale = :fr
+@post.title = "barbar"
+@post.title(:it) = "baz"
+
+
+=== In the forms
+<%= f.text_input :title %>
+
+# Specify a locale
+<%= f.text_input :content, :locale => :fr %>
+
+
+
+== Copyright
+
+Copyright (c) 2011 David Ruyer. See LICENSE.txt for
+further details.
