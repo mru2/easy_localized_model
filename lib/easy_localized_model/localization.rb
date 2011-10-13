@@ -48,7 +48,7 @@ module EasyLocalizedModel
       value = (locale && !content.is_a?(Hash)) ? {locale.to_sym => content} : content
       if value.is_a? Hash
         if is_localization?
-          @content = @content.merge(value)
+          @content = @content.merge(value.symbolize_keys!)
         else
           @content = LocalizationHash.new(value)
         end

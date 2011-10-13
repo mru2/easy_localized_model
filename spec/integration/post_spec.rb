@@ -39,7 +39,7 @@ module EasyLocalizedModel
     it "should be able to handle strings" do
       @post.title = "foo"
       @post.title.should== "foo"
-      @post.title(:fr).should== nil
+      @post.title(:fr).should== "foo" # switch to default locale
     
 
       @post.title = @title_translations
