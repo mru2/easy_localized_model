@@ -304,3 +304,11 @@
   [1m[35mSQL (2.4ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 150
   [1m[36mSQL (25.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:59:09 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:59:09 UTC +00:00]]
   [1m[35mSQL (2.5ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 151
+  [1m[36mSQL (50.4ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 13:41:58 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 13:41:58 UTC +00:00]]
+  [1m[35mSQL (2.8ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 152
+  [1m[36mSQL (24.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 13:43:12 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 13:43:12 UTC +00:00]]
+  [1m[36mSQL (25.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 13:43:53 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 13:43:53 UTC +00:00]]
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 153
+  [1m[36mSQL (25.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 13:44:53 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 13:44:53 UTC +00:00]]
+  [1m[36mSQL (147.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 13:45:35 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 13:45:35 UTC +00:00]]
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 154
