@@ -50,6 +50,18 @@ module EasyLocalizedModel
       @post.title.should== "foo"
       @post.title(:fr).should== "titre"
     end
+    
+    it "should be able to handle default locales" do
+      I18n.locale = :fr
+      I18n.default_locale = :en
+    
+      @post.title = "foo_fr"
+      
+      I18n.locale = :en
+      
+      @post.title.should== "foo_fr"
+    end
+
   end
 
 end

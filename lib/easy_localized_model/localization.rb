@@ -1,5 +1,6 @@
 module EasyLocalizedModel
-
+  
+  # This class is the interface through which we access the database fields
   class Localization
 
     # Constructor

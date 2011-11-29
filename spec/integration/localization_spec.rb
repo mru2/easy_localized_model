@@ -28,7 +28,7 @@ module EasyLocalizedModel
       l.set({:it => "barbar"}, :en)
       l.get.should == {:en => "foofoo", :fr => "bar", :it => "barbar"}
     end
-
+    
   end
 end
     

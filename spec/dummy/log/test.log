@@ -280,3 +280,27 @@
   [1m[35mSQL (1.8ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 138
   [1m[36mSQL (27.4ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Thu, 13 Oct 2011 13:01:58 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Thu, 13 Oct 2011 13:01:58 UTC +00:00]]
   [1m[35mSQL (3.5ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 139
+  [1m[36mSQL (90.4ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Mon, 28 Nov 2011 17:07:58 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Mon, 28 Nov 2011 17:07:58 UTC +00:00]]
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 140
+  [1m[36mSQL (22.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Mon, 28 Nov 2011 17:10:03 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Mon, 28 Nov 2011 17:10:03 UTC +00:00]]
+  [1m[35mSQL (1.7ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 141
+  [1m[36mSQL (136.7ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:08:33 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:08:33 UTC +00:00]]
+  [1m[35mSQL (31.2ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 142
+  [1m[36mSQL (278.8ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:22:25 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:22:25 UTC +00:00]]
+  [1m[35mSQL (17.4ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 143
+  [1m[36mSQL (96.0ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:28:28 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:28:28 UTC +00:00]]
+  [1m[35mSQL (13.1ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 144
+  [1m[36mSQL (100.1ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:31:25 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:31:25 UTC +00:00]]
+  [1m[35mSQL (13.1ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 145
+  [1m[36mSQL (38.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:37:37 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:37:37 UTC +00:00]]
+  [1m[35mSQL (1.9ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 146
+  [1m[36mSQL (93.0ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:38:35 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:38:35 UTC +00:00]]
+  [1m[35mSQL (89.3ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 147
+  [1m[36mSQL (75.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:39:15 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:39:15 UTC +00:00]]
+  [1m[35mSQL (2.1ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 148
+  [1m[36mSQL (105.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:52:47 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:52:47 UTC +00:00]]
+  [1m[35mSQL (11.4ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 149
+  [1m[36mSQL (117.5ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:58:44 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:58:44 UTC +00:00]]
+  [1m[35mSQL (2.4ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 150
+  [1m[36mSQL (25.2ms)[0m  [1mINSERT INTO "posts" ("content", "created_at", "title", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", {:en=>"foofoo", :fr=>"barbar"}], ["created_at", Tue, 29 Nov 2011 10:59:09 UTC +00:00], ["title", "{\"en\":\"foo\",\"fr\":\"bar\"}"], ["updated_at", Tue, 29 Nov 2011 10:59:09 UTC +00:00]]
+  [1m[35mSQL (2.5ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = 151

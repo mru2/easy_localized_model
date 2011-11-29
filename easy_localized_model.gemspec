@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.1.0"
   s.add_dependency "json"
+  s.add_dependency "paramix"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "ruby-debug19"
 end
